@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/sushovan/work/sqlite'
+let g:netrw_dirhist_7='/home/parithi/debug_log/sw-firmware/tools/img_tools'
+let g:netrw_dirhist_6='/home/parithi/debug_log/sw-firmware/build/output/pm74605_stmfd_05002023_pci100x/images/unsigned'
+let g:netrw_dirhist_5='/home/parithi/debug_log/sw-firmware/build/output/pm74605_stmfd_05002023_pci100x/images'
+let g:netrw_dirhist_4='/home/tharun/patches_diag'
+let g:netrw_dirhist_3='/home/parithi/debug_log/sw-firmware/build/build_fw_stmfd'
+let g:netrw_dirhist_2='/home/parithi/sw-mchp-tools/ate_otp_verification'
+let g:netrw_dirhist_1='/usr/ghs/multi_814/python-3.8.6'
+let g:netrw_dirhist_0='/home/parithi/sw-mchp-tools/doxybot/my_package'
+let g:netrw_dirhist_9='/home/vaibhaav/velocitypci-cli/.git'

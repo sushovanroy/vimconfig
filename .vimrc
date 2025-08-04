@@ -15,8 +15,9 @@ set hlsearch
 set incsearch
 
 " Toggle search highlight
-nnoremap <leader>nh :nohlsearch<CR>
-" Load all files (Added by sushovan) - type \la
+"nnoremap <leader>nh :nohlsearch<CR>
+ nnoremap <leader>nh :nohlsearch
+" Load all files - \la Added by sushovan
 nnoremap <leader>la :args **/*.c **/*.h
 
 " Appending line1 (above) with line2(below)(Added by sushovan) - type \aj
@@ -41,11 +42,6 @@ set shiftwidth=3
 " toggle paste mode; usful to copy exact text b/w vim files
 set pastetoggle=<F2>
 
-" ctrl+c to toggle highlight.
-" let hlstate=0
-" nnoremap <F3> :if (hlstate%2 == 0) \| set hlsearch \| else \| nohlsearch \| endif \| let hlstate=(hlstate+1)%2<cr>
-"nnoremap <F3> :set hlsearch<cr>
-"nnoremap <c><F3> :nohlsearch<cr>
 
 " for Tag-list
 filetype plugin on
@@ -200,3 +196,20 @@ set t_vb=
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
 call plug#end()
+
+" Added by sushovan
+" Always show the statusline
+set laststatus=2
+set ruler
+" Set a custom statusline
+set statusline=
+set statusline+=%<               " Truncate from the left if too long
+set statusline+=%F               " Full file path
+set statusline+=\ [%Y]           " Filetype
+set statusline+=\ %{&fileformat} " File format (unix/dos/mac)
+set statusline+=\ %{&fileencoding} " Encoding (utf-8, etc.)
+set statusline+=%m               " Modified flag [+]
+set statusline+=%=               " Separator (left/right)
+set statusline+=Ln:%l            " Line number
+set statusline+=,\ Col:%c        " Column number
+set statusline+=\ (%p%%)         " Percent through file

@@ -213,3 +213,10 @@ set statusline+=%=               " Separator (left/right)
 set statusline+=Ln:%l            " Line number
 set statusline+=,\ Col:%c        " Column number
 set statusline+=\ (%p%%)         " Percent through file
+
+" \q  open and close quickfix
+" put cursor in the symbol
+" same as csope command like c , ,s ,g ,f
+" ctrl+\+c -> 
+"
+

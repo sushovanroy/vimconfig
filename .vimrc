@@ -218,5 +218,7 @@ set statusline+=\ (%p%%)         " Percent through file
 " put cursor in the symbol
 " same as csope command like c , ,s ,g ,f
 " ctrl+\+c -> 
-"
+" Note:In the Quickfix window use Alt+Up-Down arrow to navigate
+" the search result. The file corresponding to searched item
+" # automatically opened.
 
